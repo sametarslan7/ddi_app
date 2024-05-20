@@ -29,7 +29,7 @@ def train_fasttext_model(data):
 
 # Streamlit uygulamasını tanımlayın
 def main():
-    st.title('FastText Modeli Eğitimi ve Sınıflandırma')
+    st.title('Naive-Bayes Modeli Eğitimi ve Sınıflandırma')
 
     # Dosya yükleme alanı ekleyin
     uploaded_file = st.file_uploader("Lütfen bir xlsx dosyası yükleyin", type=["xlsx"])
