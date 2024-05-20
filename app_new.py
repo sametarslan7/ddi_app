@@ -13,7 +13,7 @@ from sklearn.naive_bayes import MultinomialNB
 # Gerekli NLTK verilerini indirin
 nltk.download('punkt')
 nltk.download('stopwords')
-
+nltk.download('wordnet')
 # NLTK Türkçe stop words listesini yükleyin
 stop_words = set(stopwords.words('turkish'))
 
